@@ -1,0 +1,15 @@
+{
+  "name": "nqQuick",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nagaraju Sangam",
+  "email": "nagaraju_sangam@yahoo.co.in",
+  "license": "ISC"
+}

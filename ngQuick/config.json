@@ -1,0 +1,27 @@
+{
+  "path-map" : {
+           "controller": "boilerplate/component-templates/angular/controller.txt",
+           "service": "boilerplate/component-templates/angular/service.txt",
+           "directive": "boilerplate/component-templates/angular/directive.txt",
+           "directive-config": "boilerplate/component-templates/angular/directive-config.txt",
+           "header-comments": "boilerplate/comments-templates/header-comments.txt",
+           "footer-comments": "boilerplate/comments-templates/footer-comments.txt",
+           "component-popup": "boilerplate/popup-templates/create-component.html",
+           "app-popup" :"boilerplate/popup-templates/create-app.html",
+           "app-templates":"boilerplate/app-templates/angular"
+       },
+  "file-postfix": {
+           "controller": "-controller",
+           "service": "-service",
+           "directive": "-ui-component",
+           "directive-config": "-ui-component-config"
+  },
+  "place-holders":{
+        "<copyright>": "Copyright @2015 All rights Reserver"
+  },
+  "formatters":{
+        "moduleName": "return value.toLowerCase()",
+        "componentFileName": "return value.toLowerCase()",
+        "componentName": "v=value.split('-');v.forEach(function(el, i, arr){ arr[i]=(i==0?el.toLowerCase():el.toProperCase());});  return v.join('')"  
+  }
+}

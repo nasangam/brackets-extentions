@@ -1,0 +1,17 @@
+(function(){
+  "use strict";
+  angular.module('<module-name>')
+    .service('<component-name>', ['$http', '$q'
+         function($http,$q) {
+          var svc = {};
+           svc.getData= function(){
+               var def = $q.defer(),
+               p = def.promise;
+               
+               def.resolve({ });
+               return p;          
+            }
+          return svc;  
+        }
+    ]);
+})();

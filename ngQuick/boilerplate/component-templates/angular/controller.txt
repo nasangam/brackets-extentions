@@ -1,0 +1,11 @@
+(function(){
+  "use strict";
+  angular.module('<module-name>')
+    .controller('<component-name>', ['$scope', '$window', '$translate', '$location', 
+        function ($scope, $window, $translate, $location) {
+
+
+            
+        }
+    ]);
+})();

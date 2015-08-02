@@ -1,0 +1,14 @@
+(function(){
+  "use strict";
+  angular.module('<module-name>')
+    .value('<component-name>',{
+        serviceName: "<service-name>",
+        methodName: "<method-name>",
+        templateUrl: "<URL>",
+        getFieldMap: function(data,attrs) {
+            
+            return {
+            
+            };
+        });
+})();

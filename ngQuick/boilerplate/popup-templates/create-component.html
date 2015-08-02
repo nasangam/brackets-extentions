@@ -1,0 +1,35 @@
+<div class="about-dialog modal">
+    <div class="modal-header">
+        <h1 class="dialog-title">Create New Angular Component</h1>
+    </div>
+    <div class="modal-body">
+       <div><b>Angular Componet:</b> </div>
+       <div><select id="ngComponent">
+           <option value="service" selected>Service</option>
+           <option value="controller">Controller</option>
+           <option value="directive">Directive</option>
+           <option value="directive-config">Directive Config</option>
+           <option value="factory">Factory</option>
+           </select>
+       </div> 
+       <div>
+           <span id="selCompType">Service</span> Name: &nbsp; <span id="formatedCompName"></span> <br/>
+           <span id="selCompFileType">Service</span> File Name: &nbsp; <span id="formatedFileName"></span> 
+       </div>
+        <div>
+            <input type="text" id="ngCompName"> 
+        </div>
+        <div>
+            Module Name: &nbsp <span id="formattedModuleName">    
+       </div>
+        <div>
+            <input type="text" id="ngModuleName"> 
+        </div>
+       <br/>
+       <div> <b>note</b>: Please select component typen, enter component & module name and click on create</div>
+    </div>
+    <div class="modal-footer">
+        <button class="dialog-button btn primary btn-create">Create</button>
+        <button class="dialog-button btn btn-cancel">Cancel</button>
+    </div>
+</div>

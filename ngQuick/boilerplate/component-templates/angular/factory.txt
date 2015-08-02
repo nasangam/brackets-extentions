@@ -1,0 +1,12 @@
+(function(){
+  "use strict";
+  angular.module('<module-name>')
+    .factory('<component-name>', ['$http', '$q'
+        function ($http,$q) {
+          var svc = {};
+        
+        
+          return svc;  
+        }
+    ]);
+})();
